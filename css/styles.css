@@ -143,6 +143,18 @@ form {
   font-size: 48px;
 }
 
-@media screen (min-width: 548px)
+
+@media (max-width: 572px) {
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btnCreate {
+    margin-top: 10px;
+  }
+}
+
+
 
 
