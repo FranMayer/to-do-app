@@ -27,11 +27,28 @@ form {
 }
 
 .mainCard {
-  width: 40vw;
-  border-radius: 25px;
+  width: 80%;
+  border-radius: 25px 0px 25px 0px;
   background-color: #fff;
   padding: 25px;
 }
+
+.logo-png {
+  width: 5rem;
+}
+
+.title-head-form {
+  width: 100%;
+}
+
+.h2title {
+  text-align: center; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  margin-bottom: 20px;
+}
+
 
 .title {
   font-family: 'Dosis', sans-serif;
@@ -125,3 +142,7 @@ form {
 .noTasks {
   font-size: 48px;
 }
+
+@media screen (min-width: 548px)
+
+
