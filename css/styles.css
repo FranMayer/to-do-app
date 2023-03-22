@@ -144,7 +144,14 @@ form {
 }
 
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
+  .mainCard {
+    width: 100vw;
+    border-radius: 25px;
+    background-color: #fff;
+    padding: 25px;
+  }
+
   form {
     display: flex;
     flex-direction: column;
